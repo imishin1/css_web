@@ -87,7 +87,7 @@ header{
     display: flex;
     flex-direction: row;
 }
-.h_PiedPiperCoin{
+.h_PiedPiperCoin, .h_the_team{
     color: rgba(0, 119, 101, 1);
     font-size: 64px;
     text-align: center;
@@ -103,8 +103,21 @@ header{
 }
 .fifth_par{
     background-color: rgba(238, 238, 238, 1);
-    height: 845;
+    height: 845px;
 }
 .content{
     text-align: center;
+    padding-bottom: 90px;
+}
+figcaption{
+    font-size: 24px;
+    color: rgba(0, 119, 101, 1);
+    font-weight: bold;
+}
+.image{
+    font-size: 18px;
+    color: black;
+}
+.h_the_team{
+    padding-top: 50px;
 }
