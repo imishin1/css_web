@@ -1,0 +1,81 @@
+section{
+    padding-left: 55px;
+    padding-right: 55px;
+}
+header{
+    background: rgba(0, 119, 101, 1);
+    height:84px;;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.head_link{
+    padding-right: 40px;
+    display: flex;
+    flex-direction: row;
+}
+.logo{
+    padding-left: 40px;
+}
+.link{
+    color:white;
+    font-size: 24px;
+}
+.head_span{
+    color:white;
+    font-size: 24px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.logo{
+    width: 184px;
+    height: 45px;
+}
+.first_par{
+    background-image: url('img/image.png');
+    background-size: cover;
+    height: 403px;
+}
+.content_first_par{
+    height: inherit;
+    display: flex;
+    color:white;
+    font-size: 72px;
+    justify-content:center;
+    align-items: center;
+}
+.second_par{
+    display: flex;
+    background-color: rgba(238, 238, 238, 1);
+    flex-direction: column;
+    align-items: center;
+}
+.second_par_div, .h_the_problem{
+    display: flex;
+    flex-direction: column;
+}
+.h_the_problem{
+    display: flex;
+    align-items: center;
+    font-weight: 64px;
+    color: rgba(0, 119, 101, 1);
+}
+.second_par{
+    font-size: 32px;
+    color: black;
+}
+.third_par{
+    background-image: url('img/image (1).png');
+    background-size: cover;
+    height: 483px;
+}
+.blockquote{
+    display: flex;
+    height: inherit;
+    font-size: 48px;
+    font-style: italic;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
